@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{fa8c8097-14c8-433f-b5e6-420d04ea7e36}</ProjectGuid>
+    <RootNamespace>leectcode</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="1002查找常用字符.cpp" />
+    <ClCompile Include="1024 视频拼接.cpp" />
+    <ClCompile Include="1030 距离顺序排列矩阵单元格.cpp" />
+    <ClCompile Include="105 从前序与中序遍历序列构造二叉树.cpp" />
+    <ClCompile Include="1122 数组的相对排序.cpp" />
+    <ClCompile Include="116 填充每个节点的右侧指针.cpp" />
+    <ClCompile Include="1207 独一无二的出现次数.cpp" />
+    <ClCompile Include="122 买卖股票的最佳时机二.cpp" />
+    <ClCompile Include="129 从根到叶子节点数字之和.cpp" />
+    <ClCompile Include="134 加油站.cpp" />
+    <ClCompile Include="1356 根据数字二进制下 1 的数目排序.cpp" />
+    <ClCompile Include="1365 有多少小于当前数字的数字.cpp" />
+    <ClCompile Include="1370 上升下降字符串.cpp" />
+    <ClCompile Include="139 单词拆分.cpp" />
+    <ClCompile Include="141环形链表.cpp" />
+    <ClCompile Include="142环形链表2.cpp" />
+    <ClCompile Include="143 重排链表.cpp" />
+    <ClCompile Include="144 二叉树的前序遍历.cpp" />
+    <ClCompile Include="145 二叉树的后序遍历.cpp" />
+    <ClCompile Include="147 对链表进行插入排序.cpp" />
+    <ClCompile Include="148  排序链表.cpp" />
+    <ClCompile Include="1561 你可以获得的最大硬币数目.cpp" />
+    <ClCompile Include="164 最大间距.cpp" />
+    <ClCompile Include="19删除链表的倒数第 n 个节点.cpp" />
+    <ClCompile Include="204 计数质数.cpp" />
+    <ClCompile Include="206 反转链表.cpp" />
+    <ClCompile Include="21 合并两个有序链表.cpp" />
+    <ClCompile Include="222 完全二叉树的节点个数.cpp" />
+    <ClCompile Include="234回文链表.cpp" />
+    <ClCompile Include="242 有效的字母异位词.cpp" />
+    <ClCompile Include="283 移动零.cpp" />
+    <ClCompile Include="31 下一个序列.cpp" />
+    <ClCompile Include="321 拼接最大数.cpp" />
+    <ClCompile Include="328 奇偶链表.cpp" />
+    <ClCompile Include="34 在排序数组中查找元素的第一个位置和最后一个位置.cpp" />
+    <ClCompile Include="349 两个数组的交集.cpp" />
+    <ClCompile Include="378 . 有序矩阵中第K小的元素.cpp" />
+    <ClCompile Include="381 insert-delete-getrandom-o1-duplicates-allowed.cpp" />
+    <ClCompile Include="402 移掉k位数字.cpp" />
+    <ClCompile Include="406 根据身高重建队列.cpp" />
+    <ClCompile Include="410分割数组的最大值.cpp" />
+    <ClCompile Include="452 用最少数量的箭引爆气球.cpp" />
+    <ClCompile Include="454 四数相加.cpp" />
+    <ClCompile Include="463 岛屿的周长.cpp" />
+    <ClCompile Include="493 翻转对.cpp" />
+    <ClCompile Include="514 自由之路.cpp" />
+    <ClCompile Include="52 N皇后2.cpp" />
+    <ClCompile Include="530二叉搜索树的绝对值最小差.cpp" />
+    <ClCompile Include="57 插入区间.cpp" />
+    <ClCompile Include="659 分割数组为连续子序列.cpp" />
+    <ClCompile Include="763 划分字母区间.cpp" />
+    <ClCompile Include="767 重构字符串.cpp" />
+    <ClCompile Include="844比较含退格的字符串.cpp" />
+    <ClCompile Include="845 数组中的最长山脉.cpp" />
+    <ClCompile Include="922 按奇偶排序数组 II.cpp" />
+    <ClCompile Include="925 长键按入.cpp" />
+    <ClCompile Include="937 最接近原点的k个点.cpp" />
+    <ClCompile Include="94 二叉树的中序遍历.cpp" />
+    <ClCompile Include="941 有效的山脉数组.cpp" />
+    <ClCompile Include="976 三角形的最大周长.cpp" />
+    <ClCompile Include="LCP 08 剧情触发事件.cpp" />
+    <ClCompile Include="LCP 32 魔术排列.cpp" />
+    <ClCompile Include="LCP12.cpp" />
+    <ClCompile Include="51 N皇后.cpp" />
+    <ClCompile Include="LCP19 树叶收藏集.cpp" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="模板.cpp" />
+    <ClCompile Include="祖玛.cpp" />
+    <ClCompile Include="范围查询(Range).cpp" />
+    <ClCompile Include="面试题 17.09 第k个素数.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
