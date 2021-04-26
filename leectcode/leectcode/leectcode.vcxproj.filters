@@ -16,6 +16,9 @@
     <Filter Include="源文件\QH">
       <UniqueIdentifier>{a4cf0a75-63ee-4d6d-9334-6faeae09cc3a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\算法作业">
+      <UniqueIdentifier>{19d5ff80-f07e-4562-a67f-a1e130507ff0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="141环形链表.cpp">
@@ -54,7 +57,7 @@
     <ClCompile Include="844比较含退格的字符串.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="模板.cpp">
+    <ClCompile Include="1模板.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="143 重排链表.cpp">
@@ -229,6 +232,48 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="118 杨辉三角.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="91 解码方法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="179 最大数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="208 前缀树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="363. 矩形区域不超过 K 的最大数值和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="416. 分割等和子集.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="897. 递增顺序搜索树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="源.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1 两数之和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="作业2.cpp">
+      <Filter>源文件\算法作业</Filter>
+    </ClCompile>
+    <ClCompile Include="1852824_吴杨婉婷_Assignment_2.cpp">
+      <Filter>源文件\算法作业</Filter>
+    </ClCompile>
+    <ClCompile Include="各种排序.cpp">
+      <Filter>源文件\算法作业</Filter>
+    </ClCompile>
+    <ClCompile Include="动态规划 二项式系数.cpp">
+      <Filter>源文件\算法作业</Filter>
+    </ClCompile>
+    <ClCompile Include="1011. 在 D 天内送达包裹的能力.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

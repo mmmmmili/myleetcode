@@ -139,7 +139,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1 两数之和.cpp" />
     <ClCompile Include="1002查找常用字符.cpp" />
+    <ClCompile Include="1011. 在 D 天内送达包裹的能力.cpp" />
     <ClCompile Include="1024 视频拼接.cpp" />
     <ClCompile Include="1030 距离顺序排列矩阵单元格.cpp" />
     <ClCompile Include="105 从前序与中序遍历序列构造二叉树.cpp" />
@@ -163,9 +165,13 @@
     <ClCompile Include="148  排序链表.cpp" />
     <ClCompile Include="1561 你可以获得的最大硬币数目.cpp" />
     <ClCompile Include="164 最大间距.cpp" />
+    <ClCompile Include="179 最大数.cpp" />
+    <ClCompile Include="1852824_吴杨婉婷_Assignment_2.cpp" />
     <ClCompile Include="19删除链表的倒数第 n 个节点.cpp" />
+    <ClCompile Include="2.cpp" />
     <ClCompile Include="204 计数质数.cpp" />
     <ClCompile Include="206 反转链表.cpp" />
+    <ClCompile Include="208 前缀树.cpp" />
     <ClCompile Include="21 合并两个有序链表.cpp" />
     <ClCompile Include="222 完全二叉树的节点个数.cpp" />
     <ClCompile Include="234回文链表.cpp" />
@@ -176,11 +182,13 @@
     <ClCompile Include="328 奇偶链表.cpp" />
     <ClCompile Include="34 在排序数组中查找元素的第一个位置和最后一个位置.cpp" />
     <ClCompile Include="349 两个数组的交集.cpp" />
+    <ClCompile Include="363. 矩形区域不超过 K 的最大数值和.cpp" />
     <ClCompile Include="378 . 有序矩阵中第K小的元素.cpp" />
     <ClCompile Include="381 insert-delete-getrandom-o1-duplicates-allowed.cpp" />
     <ClCompile Include="402 移掉k位数字.cpp" />
     <ClCompile Include="406 根据身高重建队列.cpp" />
     <ClCompile Include="410分割数组的最大值.cpp" />
+    <ClCompile Include="416. 分割等和子集.cpp" />
     <ClCompile Include="452 用最少数量的箭引爆气球.cpp" />
     <ClCompile Include="454 四数相加.cpp" />
     <ClCompile Include="463 岛屿的周长.cpp" />
@@ -194,6 +202,8 @@
     <ClCompile Include="767 重构字符串.cpp" />
     <ClCompile Include="844比较含退格的字符串.cpp" />
     <ClCompile Include="845 数组中的最长山脉.cpp" />
+    <ClCompile Include="897. 递增顺序搜索树.cpp" />
+    <ClCompile Include="91 解码方法.cpp" />
     <ClCompile Include="922 按奇偶排序数组 II.cpp" />
     <ClCompile Include="925 长键按入.cpp" />
     <ClCompile Include="937 最接近原点的k个点.cpp" />
@@ -206,7 +216,11 @@
     <ClCompile Include="51 N皇后.cpp" />
     <ClCompile Include="LCP19 树叶收藏集.cpp" />
     <ClCompile Include="test.cpp" />
-    <ClCompile Include="模板.cpp" />
+    <ClCompile Include="作业2.cpp" />
+    <ClCompile Include="动态规划 二项式系数.cpp" />
+    <ClCompile Include="各种排序.cpp" />
+    <ClCompile Include="1模板.cpp" />
+    <ClCompile Include="源.cpp" />
     <ClCompile Include="祖玛.cpp" />
     <ClCompile Include="范围查询(Range).cpp" />
     <ClCompile Include="面试题 17.09 第k个素数.cpp" />
