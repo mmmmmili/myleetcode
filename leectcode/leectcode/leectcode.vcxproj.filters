@@ -19,6 +19,9 @@
     <Filter Include="源文件\算法作业">
       <UniqueIdentifier>{19d5ff80-f07e-4562-a67f-a1e130507ff0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\比赛">
+      <UniqueIdentifier>{c3111bd2-6081-4cdc-9558-fea5051121c8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="141环形链表.cpp">
@@ -275,6 +278,24 @@
     </ClCompile>
     <ClCompile Include="1011. 在 D 天内送达包裹的能力.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1.拓扑排序.cpp">
+      <Filter>源文件\比赛</Filter>
+    </ClCompile>
+    <ClCompile Include="1.cpp">
+      <Filter>源文件\比赛</Filter>
+    </ClCompile>
+    <ClCompile Include="1.1.cpp">
+      <Filter>源文件\比赛</Filter>
+    </ClCompile>
+    <ClCompile Include="2.2.cpp">
+      <Filter>源文件\比赛</Filter>
+    </ClCompile>
+    <ClCompile Include="633. 平方数之和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="137. 只出现一次的数字 II.cpp">
+      <Filter>源文件\算法作业</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
