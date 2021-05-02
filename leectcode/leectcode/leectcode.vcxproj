@@ -201,6 +201,7 @@
     <ClCompile Include="514 自由之路.cpp" />
     <ClCompile Include="52 N皇后2.cpp" />
     <ClCompile Include="530二叉搜索树的绝对值最小差.cpp" />
+    <ClCompile Include="554. 砖墙.cpp" />
     <ClCompile Include="57 插入区间.cpp" />
     <ClCompile Include="633. 平方数之和.cpp" />
     <ClCompile Include="659 分割数组为连续子序列.cpp" />
