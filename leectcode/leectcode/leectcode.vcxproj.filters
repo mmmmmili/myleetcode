@@ -303,5 +303,8 @@
     <ClCompile Include="554. 砖墙.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="1473. 粉刷房子 III.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
