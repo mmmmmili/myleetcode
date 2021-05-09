@@ -172,6 +172,7 @@
     <ClCompile Include="1561 你可以获得的最大硬币数目.cpp" />
     <ClCompile Include="164 最大间距.cpp" />
     <ClCompile Include="1720. 解码异或后的数组.cpp" />
+    <ClCompile Include="1723. 完成所有工作的最短时间.cpp" />
     <ClCompile Include="179 最大数.cpp" />
     <ClCompile Include="1852824_吴杨婉婷_Assignment_2.cpp" />
     <ClCompile Include="19删除链表的倒数第 n 个节点.cpp" />
@@ -209,6 +210,7 @@
     <ClCompile Include="633. 平方数之和.cpp" />
     <ClCompile Include="659 分割数组为连续子序列.cpp" />
     <ClCompile Include="690. 员工的重要性.cpp" />
+    <ClCompile Include="698. 划分为k个相等的子集.cpp" />
     <ClCompile Include="763 划分字母区间.cpp" />
     <ClCompile Include="767 重构字符串.cpp" />
     <ClCompile Include="844比较含退格的字符串.cpp" />

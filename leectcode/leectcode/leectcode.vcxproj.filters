@@ -312,5 +312,11 @@
     <ClCompile Include="1486. 数组异或操作.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="1723. 完成所有工作的最短时间.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="698. 划分为k个相等的子集.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
