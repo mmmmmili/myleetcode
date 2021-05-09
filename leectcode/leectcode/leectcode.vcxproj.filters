@@ -318,5 +318,8 @@
     <ClCompile Include="698. 划分为k个相等的子集.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="1482. 制作 m 束花所需的最少天数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

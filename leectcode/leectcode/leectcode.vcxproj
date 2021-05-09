@@ -168,6 +168,7 @@
     <ClCompile Include="147 对链表进行插入排序.cpp" />
     <ClCompile Include="1473. 粉刷房子 III.cpp" />
     <ClCompile Include="148  排序链表.cpp" />
+    <ClCompile Include="1482. 制作 m 束花所需的最少天数.cpp" />
     <ClCompile Include="1486. 数组异或操作.cpp" />
     <ClCompile Include="1561 你可以获得的最大硬币数目.cpp" />
     <ClCompile Include="164 最大间距.cpp" />
