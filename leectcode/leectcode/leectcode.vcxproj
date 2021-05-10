@@ -216,6 +216,7 @@
     <ClCompile Include="767 重构字符串.cpp" />
     <ClCompile Include="844比较含退格的字符串.cpp" />
     <ClCompile Include="845 数组中的最长山脉.cpp" />
+    <ClCompile Include="872. 叶子相似的树.cpp" />
     <ClCompile Include="897. 递增顺序搜索树.cpp" />
     <ClCompile Include="91 解码方法.cpp" />
     <ClCompile Include="922 按奇偶排序数组 II.cpp" />

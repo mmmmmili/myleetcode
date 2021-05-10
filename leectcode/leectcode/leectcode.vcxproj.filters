@@ -321,5 +321,8 @@
     <ClCompile Include="1482. 制作 m 束花所需的最少天数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="872. 叶子相似的树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
