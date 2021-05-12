@@ -324,5 +324,8 @@
     <ClCompile Include="872. 叶子相似的树.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="1310. 子数组异或查询.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
