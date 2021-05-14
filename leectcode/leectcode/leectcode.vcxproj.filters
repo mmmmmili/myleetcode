@@ -327,5 +327,8 @@
     <ClCompile Include="1310. 子数组异或查询.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="12. 整数转罗马数字.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

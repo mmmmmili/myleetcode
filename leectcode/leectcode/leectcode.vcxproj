@@ -151,6 +151,7 @@
     <ClCompile Include="1122 数组的相对排序.cpp" />
     <ClCompile Include="116 填充每个节点的右侧指针.cpp" />
     <ClCompile Include="118 杨辉三角.cpp" />
+    <ClCompile Include="12. 整数转罗马数字.cpp" />
     <ClCompile Include="1207 独一无二的出现次数.cpp" />
     <ClCompile Include="122 买卖股票的最佳时机二.cpp" />
     <ClCompile Include="129 从根到叶子节点数字之和.cpp" />
