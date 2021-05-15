@@ -330,5 +330,8 @@
     <ClCompile Include="12. 整数转罗马数字.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="13. 罗马数字转整数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
