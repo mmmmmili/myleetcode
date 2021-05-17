@@ -202,6 +202,7 @@
     <ClCompile Include="406 根据身高重建队列.cpp" />
     <ClCompile Include="410分割数组的最大值.cpp" />
     <ClCompile Include="416. 分割等和子集.cpp" />
+    <ClCompile Include="421. 数组中两个数的最大异或值.cpp" />
     <ClCompile Include="452 用最少数量的箭引爆气球.cpp" />
     <ClCompile Include="454 四数相加.cpp" />
     <ClCompile Include="463 岛屿的周长.cpp" />
