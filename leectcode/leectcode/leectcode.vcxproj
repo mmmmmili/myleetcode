@@ -229,6 +229,7 @@
     <ClCompile Include="94 二叉树的中序遍历.cpp" />
     <ClCompile Include="941 有效的山脉数组.cpp" />
     <ClCompile Include="976 三角形的最大周长.cpp" />
+    <ClCompile Include="993. 二叉树的堂兄弟节点.cpp" />
     <ClCompile Include="LCP 08 剧情触发事件.cpp" />
     <ClCompile Include="LCP 32 魔术排列.cpp" />
     <ClCompile Include="LCP12.cpp" />
