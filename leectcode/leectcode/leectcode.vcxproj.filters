@@ -339,5 +339,11 @@
     <ClCompile Include="993. 二叉树的堂兄弟节点.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="1442. 形成两个异或相等数组的三元组数目.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1738. 找出第 K 大的异或坐标值.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
