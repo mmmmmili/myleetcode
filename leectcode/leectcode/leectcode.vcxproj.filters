@@ -345,5 +345,14 @@
     <ClCompile Include="1738. 找出第 K 大的异或坐标值.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="692. 前K个高频单词.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1143. 最长公共子序列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="664. 奇怪的打印机.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

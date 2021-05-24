@@ -149,6 +149,7 @@
     <ClCompile Include="1030 距离顺序排列矩阵单元格.cpp" />
     <ClCompile Include="105 从前序与中序遍历序列构造二叉树.cpp" />
     <ClCompile Include="1122 数组的相对排序.cpp" />
+    <ClCompile Include="1143. 最长公共子序列.cpp" />
     <ClCompile Include="116 填充每个节点的右侧指针.cpp" />
     <ClCompile Include="118 杨辉三角.cpp" />
     <ClCompile Include="12. 整数转罗马数字.cpp" />
@@ -216,7 +217,9 @@
     <ClCompile Include="57 插入区间.cpp" />
     <ClCompile Include="633. 平方数之和.cpp" />
     <ClCompile Include="659 分割数组为连续子序列.cpp" />
+    <ClCompile Include="664. 奇怪的打印机.cpp" />
     <ClCompile Include="690. 员工的重要性.cpp" />
+    <ClCompile Include="692. 前K个高频单词.cpp" />
     <ClCompile Include="698. 划分为k个相等的子集.cpp" />
     <ClCompile Include="763 划分字母区间.cpp" />
     <ClCompile Include="767 重构字符串.cpp" />
