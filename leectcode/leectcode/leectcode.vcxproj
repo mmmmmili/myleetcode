@@ -152,6 +152,7 @@
     <ClCompile Include="1143. 最长公共子序列.cpp" />
     <ClCompile Include="116 填充每个节点的右侧指针.cpp" />
     <ClCompile Include="118 杨辉三角.cpp" />
+    <ClCompile Include="1190. 反转每对括号间的子串.cpp" />
     <ClCompile Include="12. 整数转罗马数字.cpp" />
     <ClCompile Include="1207 独一无二的出现次数.cpp" />
     <ClCompile Include="122 买卖股票的最佳时机二.cpp" />
@@ -212,6 +213,7 @@
     <ClCompile Include="493 翻转对.cpp" />
     <ClCompile Include="514 自由之路.cpp" />
     <ClCompile Include="52 N皇后2.cpp" />
+    <ClCompile Include="525. 连续数组.cpp" />
     <ClCompile Include="530二叉搜索树的绝对值最小差.cpp" />
     <ClCompile Include="554. 砖墙.cpp" />
     <ClCompile Include="57 插入区间.cpp" />
@@ -241,6 +243,7 @@
     <ClCompile Include="51 N皇后.cpp" />
     <ClCompile Include="LCP19 树叶收藏集.cpp" />
     <ClCompile Include="test.cpp" />
+    <ClCompile Include="作业3 编程.cpp" />
     <ClCompile Include="作业2.cpp" />
     <ClCompile Include="动态规划 二项式系数.cpp" />
     <ClCompile Include="各种排序.cpp" />
